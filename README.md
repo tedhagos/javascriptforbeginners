@@ -21,17 +21,44 @@ That means you need to type it in a command line.
 
 When I'm referring to a piece of code that you need to type in a program files (JS files), I will mark it like this
 
-**Listing. hello.js**
+*Listing. hello.js*
 
 ```javascript
 console.log("Hello JS")
 ```
 
-# Hello World 
+# Introduction and the Hello World program
+
+A JS program, like many programs, are written in a source file, then ran on some sort of runtime. There are many runtime environments for JS, but the most popular is probably the V8 engine from Google. This is the same V8 engine that's inside Chrome, Safari and now Microsoft Edge. 
+
+You can run some JS programs using a REPL (Read Eval Print Loop) which you can find in most browsers or a NodeJS environment, but that's not what we will use for the following examples. 
+
+JS is interpreted (not compiled). When you write an executable statement in a program file, the runtime will execute whatever you wrote first. So, if you created a source file named **hello.js** and wrote the following;
+
+_Listing. filename: hello.js_ 
+
+```javascript
+// filename: hello.js
+/* 
+  This is our first JS program
+*/
+
+console.log("Hello World)
+```
 
 
 
 # Language elements
+
+Statements
+
+Comments
+
+Variables
+
+Blocks
+
+Literals
 
 
 # Types
