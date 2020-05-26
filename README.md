@@ -1,3 +1,7 @@
+**Contents**
+* TOC
+{:toc}
+
 # Overview
 
 
@@ -46,22 +50,41 @@ _Listing. filename: hello.js_
 console.log("Hello World)
 ```
 
+Unlike Java, C/C++ or C#, JS does not need a main function. Simply write your statements one after another, and it will be executed in the same sequence as you wrote it. 
 
+**Point of clarification**: The runtime will execute top-level statements. Statements that are inside functions, will be ignored. If you want to execute the statements inside any function, you have to call that function.
 
 # Language elements
 
-Statements
+## Statements and expressions
 
-Comments
+Expressions are built by combining operands and operators. The operands can be variables, function calls, literals etc.; for example
 
-Variables
+Listing. example expression
+```
 
-Blocks
+```
 
-Literals
+A statement is a line of complete instruction to the interpreter. Statements are built with expressions. 
+
+## Comments
+
+## Variables
+
+## Operators
+
+
+## Blocks
+
+## Literals
+
+## Objects
+
+## Functions
 
 
 # Types
+
 
 
 # If else
@@ -74,6 +97,9 @@ Literals
 
 
 # Common built-in functions
+
+
+# Some more words on Functions
 
 
 # Basic DOM management
